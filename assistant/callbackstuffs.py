@@ -166,7 +166,7 @@ TOKEN_FILE = "resources/auths/auth_token.txt"
 )
 async def send(eve):
     key, name = (eve.data_match.group(1)).decode("UTF-8").split("_")
-    thumb = "https://graph.org/file/60408fea8439e6702674d.jpg"
+    thumb = "https://graph.org/file/f3eb6353d2c6d233c6c41.jpg"
     await eve.answer("■ Sending ■")
     data = f"uh_{key}_"
     index = None
