@@ -33,7 +33,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
   - ketik ctrl + S
   - ctrl + X
 
- • `screen -S naya`
+ • `screen -S Zayden-Userbot`
 
  • `bash start`
 
