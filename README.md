@@ -1,21 +1,3 @@
-<p align="center">
-  <img src="./resources/extras/logo.jpg" alt="Ayra Logo">
-</p>
-<h1 align="center">
-  <b>иᴀʏᴀ ꭙ ᴜꜱᴇʀʙᴏᴛ​</b>
-</h1>
-
-<b>A stable pluggable Telegram userbot + Voice & Video Call music bot, based on Telethon and Pyrogram</b>
-
-
-[![Last Commit](https://img.shields.io/github/last-commit/naya1503/Naya-Userbot?color=red&logo=github&logoColor=blue&style=for-the-badge)](https://github.com/naya1503/Naya-Userbot/commits)
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/naya1503/Naya-Userbot)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://GitHub.com/naya1503/Naya-Userbot/graphs/commit-activity)
-[![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/naya1503/Naya-Userbot/dashboard)
-[![GitHub Forks](https://img.shields.io/github/forks/naya1503/Naya-Userbot?&logo=github)](https://github.com/naya1503/Naya-Userbot/fork)
-[![GitHub Stars](https://img.shields.io/github/stars/naya1503/Naya-Userbot?&logo=github)](https://github.com/naya1503/Naya-Userbot/stargazers)
-----
-
 ## Disclaimer
 
 ```
@@ -39,9 +21,9 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 • `sudo apt-get install python3-pip ffmpeg -y`
 
- • `git clone https://github.com/naya1503/Naya-Userbot`
+ • `git clone https://github.com/BrynDom/Zayden-Userbot`
 
- • `cd Naya-Userbot`
+ • `cd Zayden-Userbot`
 
  • `bash installer.sh`
 
@@ -91,38 +73,3 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 </div>
 
 </details>
-
-
-
-#### Special Thanks To
-* [Everyone](https://github.com/mrismanaziz/Man-Userbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
-* [AdekMaulana](https://github.com/adekmaulana) : ProjectBish
-* [RaphielGang](https://github.com/RaphielGang) : Paperplane
-* [TeamUltroid](https://github.com/TeamUltroid/Ultroid) :  UltroidUserbot
-* [BianSepang](https://github.com/BianSepang/WeebProject) : WeebProject
-* [Sandy1709](https://github.com/sandy1709/catuserbot) : CatUserbot
-* [X_ImFine](https://github.com/ximfine) :  XBot-REMIX
-* [Risman](https://github.com/mrismanaziz/Man-Userbot) :  Man-Userbot
-* [Koala](https://github.com/ManusiaRakitan/Kampang-Bot) : Kampang-Bot
-* [Alvin](https://github.com/Zora24/Lord-Userbot) : Lord-Userbot
-* [AyiinXd](https://github.com/AyiinXd/Ayiin-Userbot) : Ayiin-Userbot
-
-## © Credits
-* [TeamUltroid](https://github.com/TeamUltroid) for [Ultroid](https://github.com/TeamUltroid/Ultroid)
-* [Lonami](https://github.com/LonamiWebs/) for [Telethon](https://github.com/LonamiWebs/Telethon)
-* [MarshalX](https://github.com/MarshalX) for [PyTgCalls](https://github.com/MarshalX/tgcalls)
-* [Risman](https://github.com/mrismanaziz) for [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot)
-* [AyiinXd](https://github.com/AyiinXd) for [Ayiin-Userbot](https://github.com/AyiinXd/Ayiin-Userbot)
-* [Kynan](https://github.com/naya1503) for [Naya-Userbot](https://github.com/naya1503/Naya-Userbot)
-
-## Made By
-* [![TeamUltroid-Devs](https://img.shields.io/static/v1?label=Teamultroid&message=devs&color=critical)](https://t.me/UltroidDevs)
-
-## Remake By
-* [![Kynan.](https://img.shields.io/static/v1?label=Ky&message=nan&color=critical)](https://t.me/kenapanan)
-
-
-
-# License
-[![License](https://www.gnu.org/graphics/agplv3-155x51.png)](LICENSE)   
-Naya-Userbot is licensed under [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.en.html) v3 or later.
