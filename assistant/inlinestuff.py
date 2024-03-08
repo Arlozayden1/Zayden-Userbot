@@ -13,8 +13,8 @@ from . import *
 
 SUP_BUTTONS = [
     [
-        Button.url("• Repo •", url="https://github.com/naya1503/Naya-Userbot"),
-        Button.url("• Support •", url="t.me/kynansupport"),
+        Button.url("• Repo •", url="https://github.com/BrynDom/Zayden-Userbot"),
+        Button.url("• Support •", url="t.me/jooxsupport"),
     ],
 ]
 
@@ -33,11 +33,11 @@ apis = [
 async def repo(e):
     res = [
         await e.builder.article(
-            title="Naya Userbot",
+            title="Zayden Userbot",
             description="Userbot | Telethon",
             thumb=wb(aypic, 0, "image/jpeg", []),
-            text="**◈ ᴀʏʀᴀ ꭙ ᴜꜱᴇʀʙᴏᴛ​ ◈**",
+            text="**◈ 𝗓𝖺𝗒𝖽𝖾𝗇 ꭙ ᴜꜱᴇʀʙᴏᴛ​ ◈**",
             buttons=SUP_BUTTONS,
         ),
     ]
-    await e.answer(res, switch_pm="Naya-Userbot", switch_pm_param="start")
+    await e.answer(res, switch_pm="Zayden-Userbot", switch_pm_param="start")
