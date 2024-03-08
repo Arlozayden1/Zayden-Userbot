@@ -28,7 +28,7 @@ async def _help(ayra):
             for d in LIST[plug]:
                 x += HNDLR + d
                 x += "\n"
-                x += "\n© @KynanSupport"
+                x += "\n© @JooxSupport"
                 await ayra.eor(x)
         except BaseException as e:
             await ayra.eor(f"{e}")
