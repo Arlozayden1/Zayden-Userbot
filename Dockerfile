@@ -1,13 +1,13 @@
-######## Kynan #######
+######## BrynDom #######
 
-FROM kynan1503/naya-userbot:main
+FROM BrynDom/zayden-userbot:main
 
 COPY installer.sh .
 
 RUN bash installer.sh
 
 # changing workdir
-WORKDIR "/root/naya1503"
+WORKDIR "/root/BrynDom"
 
 # start the bot.
 CMD ["bash", "start"]
