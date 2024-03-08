@@ -36,7 +36,7 @@ if Owner_info_msg is None:
 
 **Message Forwards** - {udB.get_key("PMBOT")}
 
-**By Kynan Join @KynanSupport**
+**By Join @JooxSupport**
 """
 
 _settings = [
@@ -132,7 +132,7 @@ async def own(event):
         mention=event.sender.mention, me=inline_mention(ayra_bot.me)
     )
     if custom_info:
-        msg += "\n\n• Powered by **@kynansupport**"
+        msg += "\n\n• Powered by **@JooxSupport**"
     await event.edit(
         msg,
         buttons=[Button.inline("Tutup", data="closeit")],
@@ -176,7 +176,7 @@ async def ayra(event):
             if udB.get_key("PMBOT"):
                 ok = "Anda dapat menghubungi Owner saya menggunakan bot ini!!\n\nKirim Pesan Anda, saya akan Kirim ke Owner."
             await event.reply(
-                f"Hey {mention}, Aku Adalah Ayra Asissten {me}!\n\n{ok}",
+                f"Hey {mention}, Aku Adalah Zayden Asissten {me}!\n\n{ok}",
                 file=udB.get_key("STARTMEDIA"),
                 buttons=(
                     [Button.inline("Info.", data="ownerinfo")]
@@ -227,7 +227,7 @@ async def ayra(event):
 @callback("stat", owner=True)
 async def botstat(event):
     ok = len(get_all_users("BOT_USERS"))
-    msg = """Naya-Userbot Assistant - Stats
+    msg = """Zayden-Userbot Assistant - Stats
 Total Users - {}""".format(
         ok,
     )
