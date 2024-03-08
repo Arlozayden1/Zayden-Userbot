@@ -10,28 +10,28 @@ import re
 from . import *
 
 STRINGS = {
-    1: """ **Terima Kasih Telah Deploy Naya-Userbot!**
+    1: """ **Terima Kasih Telah Deploy Zayden-Userbot!**
 
 Beberapa Bantuan Untuk Kamu Pelajari.""",
-    2: """🎉** Tentang Naya-Userbot**
+    2: """🎉** Tentang Zayden-Userbot**
 
- Naya-Userbot adalah repo userbot yanh dibuat untuk kekasih saya, userbot ini memiliki beberapa fitur kamu bisa melihat nya dihalaman 4.
+ Zayden-Userbot adalah repo userbot yang dibuat untuk kekasih saya, userbot ini memiliki beberapa fitur kamu bisa melihat nya dihalaman 4.
 
-❣ Dibuat oleh **@KynanSupport**""",
+❣ Dibuat oleh **@JooxSupport**""",
     3: """
 
 -> Kamu bisa memutar musik melalui userbot ini.
 -> Kamu bisa menggunakan chatgpt atau openai.
 -> Kamu bisa merubah teks menjadi beberapa gaya font.
 -> Kamu convert foto kamu menjadi anime.
--> Kamu bisa membalas seseorang dari Naya-Userbot Logs ketika kamu di tag oleh seseorang digrup lain.
+-> Kamu bisa membalas seseorang dari Zayden-Userbot Logs ketika kamu di tag oleh seseorang digrup lain.
 -> Kamu bisa menggunakan fitur joinvc untuk menaikkan bot ke dalam obrolan suara
 -> Userbot ini memliki fitur pmpermit inline
 -> Kamu bisa menyimpan catatan apapun dengan media gambar serta button.
--> Kamu dapat berinteraksi dengan seseorang melali fitur chatbot
+-> Kamu dapat berinteraksi dengan seseorang melalui fitur chatbot
 
 **• To Know About Updates**
-  - Join @kynansupport.""",
+  - Join @jooxsupport.""",
     4: f"""**• Bantuan yang mungkin kamu ingin lihat •**
 
   - `{HNDLR}help`
