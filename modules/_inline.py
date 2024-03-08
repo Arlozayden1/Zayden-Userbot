@@ -41,8 +41,8 @@ upage = 0
 
 SUP_BUTTONS = [
     [
-        Button.url("• Repo •", url="https://github.com/naya1503/Naya-Userbot"),
-        Button.url("• Support •", url="t.me/kynansupport"),
+        Button.url("• Repo •", url="https://github.com/BrynDom/Zayden-Userbot"),
+        Button.url("• Support •", url="t.me/jooxsupport"),
     ],
 ]
 
