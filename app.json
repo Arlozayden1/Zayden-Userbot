@@ -1,13 +1,13 @@
 {
-    "name": "Naya UserBot",
-    "description": "Naya Userbot Dibuat Untuk String Telethon Dan Pyrogram Untuk ID 5 Pasti Aman.",
+    "name": "Zayden UserBot",
+    "description": "Zayden Userbot Dibuat Untuk String Telethon Dan Pyrogram Untuk ID 5 Pasti Aman.",
     "logo": "https://graph.org/file/60408fea8439e6702674d.jpg",
     "keywords": [
         "Telethon",
         "Pyrogram"
     ],
-    "repository": "https://github.com/naya1503/Naya-Userbot",
-    "success_url": "https://t.me/rizzvbss",
+    "repository": "https://github.com/BrynDom/Zayden-Userbot",
+    "success_url": "https://t.me/couldnotfounduser",
     "stack": "container",
     "env": {
         "API_ID": {
@@ -23,7 +23,7 @@
             "required": true
         },
         "MONGO_URI": {
-            "description": "Silakan isi Mongo Db/Mongo Url . Jika Build Redis Gagal . Cara ambil nya ketik #tutor di @kynansupport.",
+            "description": "Silakan isi Mongo Db/Mongo Url . Jika Build Redis Gagal .",
             "required": true
         },
         "DB_NAME": {
