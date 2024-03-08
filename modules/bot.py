@@ -30,11 +30,11 @@ except ImportError:
 
 from telethon.utils import resolve_bot_file_id
 
-piic = "https://graph.org/file/60408fea8439e6702674d.jpg"
+piic = "https://graph.org/file/b9c203aed2e76d30f9ba5.jpg"
 
 buttons = [
     [
-        Button.url(get_string("bot_4"), "t.me/kynansupport"),
+        Button.url(get_string("bot_4"), "t.me/jooxsupport"),
     ]
 ]
 
@@ -60,7 +60,7 @@ alive_txt = """
 """
 
 in_alive = """
-<b> Naya-Userbot</b>
+<b> Zayden-Userbot</b>
 <b> status :</b> <code>{}</code>{}
 <b>   expired_on :</b> <code>{}</code>
 <b>   dc_id :</b> <code>{}</code>
@@ -278,7 +278,7 @@ async def _(event):
         with open(file, "r") as f:
             code = f.read()[-2500:]
         file = await Carbon(
-            file_name="naya-logs",
+            file_name="Zayden-logs",
             code=code,
             backgroundColor=choice(ATRA_COL),
         )
@@ -384,7 +384,7 @@ async def _(e):
         )
     else:
         await xx.edit(
-            f'<code>Your BOT is </code><strong>up-to-date</strong><code> with </code><strong><a href="https://github.com/naya1503/Naya-Userbot/tree/{branch}">[{branch}]</a></strong>',
+            f'<code>Your BOT is </code><strong>up-to-date</strong><code> with </code><strong><a href="https://github.com/BrynDom/Zayden-Userbot/tree/{branch}">[{branch}]</a></strong>',
             parse_mode="html",
             link_preview=False,
         )
