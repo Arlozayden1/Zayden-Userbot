@@ -21,7 +21,7 @@ RP_BUTTONS = [
     [Button.url("Support Group", "t.me/jooxsupport")],
 ]
 
-AYSTRING = """🎇 **Thanks for Deploying Zaydem-Userbot**
+AYSTRING = """🎇 **Thanks for Deploying Zayden-Userbot**
 
 • Here, are the Some Basic stuff from, where you can Know, about its Usage."""
 
