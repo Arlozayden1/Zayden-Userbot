@@ -606,7 +606,7 @@ async def apof(event):
     try:
         udB.set_key("AUTOAPPROVE", "False")
         return await event.edit(
-            "Auto Ok Dimatikan!!",
+            "Auto Off Dimatikan!!",
             buttons=[[Button.inline("Kembali", data="cbs_apauto")]],
         )
     except BaseException as er:
