@@ -61,7 +61,7 @@ _buttons = {
         "text": "Ini akan otomatis menyetujui pesan keluar",
         "buttons": [
             [Button.inline("Auto Ok On", data="apon")],
-            [Button.inline("Auto Ok On", data="apof")],
+            [Button.inline("Auto Ok Off", data="apof")],
             [Button.inline("Kembali", data="cbs_pmcstm")],
         ],
     },
