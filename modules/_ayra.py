@@ -9,7 +9,7 @@
 from . import LOG_CHANNEL, Button, asst, ayra_cmd, eor, get_string
 
 REPOMSG = """
-◈ **ᴀʏʀᴀ ꭙ ᴜꜱᴇʀʙᴏᴛ​** ◈\n
+◈ **zу∂η χ υвσт​** ◈\n
 ◈ Repo - [Click Here](https://github.com/BrynDom/Zayden-Userbot)
 ◈ Support - @jooxsupport
 """
