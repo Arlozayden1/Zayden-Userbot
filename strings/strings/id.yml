@@ -347,7 +347,7 @@ gdrive_1: "`Anda telah memberi otorisasi dengan Google Drive`"
 gdrive_2: "Pergi [kesini](https://console.developers.google.com/flows/enableapi?apiid=drive) dan dapatkan `GDRIVE_CLIENT_ID` dan `GDRIVE_CLIENT_SECRET` kamu\n\nKirim GDRIVE_CLIENT_ID dan GDRIVE_CLIENT_SECRET kamu seperti ini.\n`GDRIVE_CLIENT_ID GDRIVE_CLIENT_SECRET` dipisahkan dengan spasi."
 gdrive_3: "`Client Id salah anjim`"
 gdrive_4: "`Terjadi kesalahan! Kirim `/auth` lagi.\nJika masih sama, harap hubungi `[˹↻zу∂η˼](t.me/arlozayden)"
-gdrive_5: "`Berhasil!\nAnda siap untuk menggunakan Google Drive dengan Ayra Userbot.`"
+gdrive_5: "`Berhasil!\nAnda siap untuk menggunakan Google Drive dengan Zayden Userbot.`"
 gdrive_6: "`Pergi ke `{}` dan kirim ``/auth.`"
 gdrive_7: "**File Berhasil Diupload kedalam G-Drive :**\n\n[{}]({})"
 
