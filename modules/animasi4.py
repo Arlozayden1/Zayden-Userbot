@@ -1,5 +1,3 @@
-# @mrismanaziz
-# t.me/sharinguserbot
 """
 ✘ **Bantuan Untuk Animasi 4**
 
