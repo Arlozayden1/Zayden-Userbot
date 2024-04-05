@@ -52,10 +52,10 @@ BLACK = [1898065191, 1054295664, 1889573907, 2133148961, 2076745088]
 
 # Will move to strings
 alive_txt = """
-◈ ᴀʏʀᴀ ꭙ ᴜꜱᴇʀʙᴏᴛ​
+◈ zу∂η χ υвσт
 
   ◈ Version - {}
-  ◈ Ayra - {}
+  ◈ zу∂η - {}
   ◈ Telethon - {}
 """
 
@@ -72,11 +72,11 @@ in_alive = """
 absen = [
     "**Hadir Sayang** 😳",
     "**Hadir Bro Kynan** 😁",
-    "**Maaf ka habis nemenin ka Kynan** 🥺",
-    "**Maaf ka habis disuruh Tuan Kynan** 🥺🙏🏻",
-    "**Hadir Kynan Sayang** 😘",
-    "**Hadir Kynan Akuuuuhhh** ☺️",
-    "**Hadir Kynan brother Aku** 🥰",
+    "**Maaf ka habis nemenin bg Zayden** 🥺",
+    "**Maaf ka habis disuruh bg Zayden** 🥺🙏🏻",
+    "**Hadir Zayden Sayang** 😘",
+    "**Hadir Zayden Akuuuuhhh** ☺️",
+    "**Hadir Zayden brother Aku** 🥰",
     "**Sokap bet lu**",
     "**Apasi Bawel** 🥰",
 ]
@@ -89,12 +89,12 @@ async def kynanabsen(ganteng):
 
 @register(incoming=True, from_users=DEVS, pattern=r"^Kynan$")
 async def naya(naya):
-    await naya.reply("**Kynan Punya Nya Naya**🤩")
+    await naya.reply("**Arlo Itu Zayden**🤩")
 
 
 @register(incoming=True, from_users=DEVS, pattern=r"^Naya$")
 async def naya(naya):
-    await naya.reply("**Naya Punya Nya Kynan**🤩")
+    await naya.reply("**Zayden Itu Arlo**🤩")
 
 
 @ayra_cmd(pattern=r"^[aA][lL][iI][vV][eE](?: |$)(.*)")
