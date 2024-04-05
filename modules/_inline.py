@@ -337,7 +337,7 @@ async def ibuild(e):
                         title="Ayra Op",
                         type=_type,
                         text=txt,
-                        description="@Riizzvbss",
+                        description="@CouldNotFoundUser",
                         include_media=include_media,
                         buttons=btn,
                         thumb=cont,
