@@ -166,7 +166,7 @@ TOKEN_FILE = "resources/auths/auth_token.txt"
 )
 async def send(eve):
     key, name = (eve.data_match.group(1)).decode("UTF-8").split("_")
-    thumb = "https://graph.org/file/f3eb6353d2c6d233c6c41.jpg"
+    thumb = "https://graph.org/file/23aeb6af36abde05b4f30.jpg"
     await eve.answer("■ Sending ■")
     data = f"uh_{key}_"
     index = None
@@ -254,7 +254,7 @@ async def changes(okk):
     )
     cli = "\n\nKlik tombol di bawah untuk memperbarui!"
     if not match:
-        thumb = "https://graph.org/file/60408fea8439e6702674d.jpg"
+        thumb = "https://graph.org/file/23aeb6af36abde05b4f30.jpg"
         try:
             if len(tl_chnglog) > 700:
                 tl_chnglog = f"{tl_chnglog[:700]}..."
@@ -267,7 +267,7 @@ async def changes(okk):
                 language="md",
             )
             return await okk.edit(
-                f"**• Naya Userbot •**{cli}",
+                f"**• Zayden Userbot •**{cli}",
                 file=thumb,
                 buttons=button,
                 force_document=True,
@@ -721,7 +721,7 @@ async def heheh(event):
             "Kirim ID Obrolan, yang ingin Anda gunakan untuk **Wajib Join** . Sebelum pengguna menggunakan Bot Anda\n\n• Kirim /clear untuk menonaktifkan **Wajib Join** PM Bot..\nKirim /cancel untuk batalkan.."
         )
         await conv.send_message(
-            "Contoh ID Obrolan: \n`-1001234567\n-100778888`\n\nUntuk Banyak Obrolan."
+            "Contoh ID Obrolan: \n`-10012345\n-1007788`\n\nUntuk Banyak Obrolan."
         )
         try:
             msg = await conv.get_response()
