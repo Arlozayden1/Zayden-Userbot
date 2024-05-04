@@ -1,5 +1,5 @@
-# Ayra - UserBot
-# Copyright (C) 2021-2022 senpai80
+# Zayden - UserBot
+# Copyright (C) 2021-2022
 #
 # This file is a part of < https://github.com/senpai80/Ayra/ >
 # PLease read the GNU Affero General Public License in
@@ -83,7 +83,7 @@ async def _(event):
     sleep(3)
     await xx.edit("Cuma Mau Bilang")
     sleep(2)
-    await xx.edit("Kalo Bang Riz ...")
+    await xx.edit("Kalo Bang Arlo ...")
     sleep(1)
     await xx.edit("Ganteng Banget")
 
