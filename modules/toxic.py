@@ -1,152 +1,295 @@
-# Ayra - UserBot
-# Copyright (C) 2021-2022 senpai80
-#
-# This file is a part of < https://github.com/senpai80/Ayra/ >
-# PLease read the GNU Affero General Public License in
-# <https://www.github.com/senpai80/Ayra/blob/main/LICENSE/>.
+################################################################
 """
-✘ **Bantuan Untuk Toxic**
-
-๏ **Perintah:** `A` sampai `Z`
-◉ **Keterangan:** Coba Sendiri.
+Argus-Userbot Open Source . Maintained ? Yes Oh No Oh Yes Ngentot
+ 
+ @ CREDIT : NAN-DEV
 """
+################################################################
 
-from . import ayra_cmd
+from Mix import *
 
-
-@ayra_cmd(pattern="A$")
-async def _(event):
-    await event.eor("ANJING LU YA KETEMU GUA TAMPOL LUUU")
-
-
-@ayra_cmd(pattern="B$")
-async def _(event):
-    await event.eor("BANYAK TINGKAH LU, BIAR APA SI BEGITU,NAJIS CUIHHH")
+__modles__ = "Toxic"
+__help__ = "Toxic"
 
 
-@ayra_cmd(pattern="C$")
-async def _(event):
-    await event.eor("CIAHHHH ELAH ,MUKA KEK BABI AJA SO SO AN NYARI CEWE GUD LUKING")
+@ky.ubot("a", sudo=True)
+async def _(c: nlx, m):
+    if m.reply_to_message and m.reply_to_message.from_user.id in DEVS:
+        await m.reply("**AKUN LO MO ILANG BANGSAT??**")
+        return
+    await m.reply(
+        "**ANAK KONTOL, MUKA KEK JEMBUT MASIH MAEN TELE ?**",
+        reply_to_message_id=ReplyCheck(m),
+    )
+    await m.delete()
 
 
-@ayra_cmd(pattern="D$")
-async def _(event):
-    await event.eor("DASAR ANAK HINA LU ,HASIL KAWIN SILANG SETAN SAMA HANSIP KOMPLEK")
+@ky.ubot("b", sudo=True)
+async def _(c: nlx, m):
+    if m.reply_to_message and m.reply_to_message.from_user.id in DEVS:
+        await m.reply("**AKUN LO MO ILANG BANGSAT??**")
+        return
+    await m.reply(
+        "**BAJINGAN!! KEREN LO GITU ? CUIH ANAK HASIL CLONE BELAGU**",
+        reply_to_message_id=ReplyCheck(m),
+    )
+    await m.delete()
 
 
-@ayra_cmd(pattern="E$")
-async def _(event):
-    await event.eor("EMANG YANG KEK GINI NIH HARUS DIBERI PAHAM ,ANJING LO !!")
+@ky.ubot("c", sudo=True)
+async def _(c: nlx, m):
+    if m.reply_to_message and m.reply_to_message.from_user.id in DEVS:
+        await m.reply("**AKUN LO MO ILANG BANGSAT??**")
+        return
+    await m.reply(
+        "**CEBOK LAH DEK MINIMAL SEBELUM TYPING!!**", reply_to_message_id=ReplyCheck(m)
+    )
+    await m.delete()
 
 
-@ayra_cmd(pattern="F$")
-async def _(event):
-    await event.eor("BABI!!KONTOL!!NGENTOT!!!")
+@ky.ubot("d", sudo=True)
+async def _(c: nlx, m):
+    if m.reply_to_message and m.reply_to_message.from_user.id in DEVS:
+        await m.reply("**AKUN LO MO ILANG BANGSAT??**")
+        return
+    await m.reply(
+        "**DARI KEMAREN GW LIATIN MUKA LO KAGA BENER-BENER!! KEBENGKEL LAS DULU SONO. TAMBEL ITU MUKA LO YANG BOPAK**",
+        reply_to_message_id=ReplyCheck(m),
+    )
+    await m.delete()
 
 
-@ayra_cmd(pattern="G$")
-async def _(event):
-    await event.eor("GANTENGAN JUGA GUA GOBLOK, NGACA NAPAH MUKA LU DAH KEK BABI AER")
+@ky.ubot("e", sudo=True)
+async def _(c: nlx, m):
+    if m.reply_to_message and m.reply_to_message.from_user.id in DEVS:
+        await m.reply("**AKUN LO MO ILANG BANGSAT??**")
+        return
+    await m.reply(
+        "**EALAH INI TOH PETINGGI TELE ? JUJURLY MUKA LU KEK JAMET PASAR SENEN BANG. MENDING LO NGADUK SEMEN!!**",
+        reply_to_message_id=ReplyCheck(m),
+    )
+    await m.delete()
 
 
-@ayra_cmd(pattern="H$")
-async def _(event):
-    await event.eor(
-        "HAHAHAHA OH INI YANG SOK JAGOAN DI TELE, BIAR APA SIH BEGITU, DASAR NOLEP GA PUNYA TEMEN ANJING, DIRUMAH JADI CUPU DITELE SOK MENINGGI KONTOL"
+@ky.ubot("f", sudo=True)
+async def _(c: nlx, m):
+    if m.reply_to_message and m.reply_to_message.from_user.id in DEVS:
+        await m.reply("**AKUN LO MO ILANG BANGSAT??**")
+        return
+    await m.reply(
+        "**PANTAT LO BURIK YA ? SOALNYA MUKA LU KEREMIAN!!**",
+        reply_to_message_id=ReplyCheck(m),
+    )
+    await m.delete()
+
+
+@ky.ubot("g", sudo=True)
+async def _(c: nlx, m):
+    if m.reply_to_message and m.reply_to_message.from_user.id in DEVS:
+        await m.reply("**AKUN LO MO ILANG BANGSAT??**")
+        return
+    await m.reply(
+        "**GOBLOK DIPIARA!! MEMEG NOH LO PIARA BIAR BANYAK ANAK!!**",
+        reply_to_message_id=ReplyCheck(m),
+    )
+    await m.delete()
+
+
+@ky.ubot("h", sudo=True)
+async def _(c: nlx, m):
+    if m.reply_to_message and m.reply_to_message.from_user.id in DEVS:
+        await m.reply("**AKUN LO MO ILANG BANGSAT??**")
+        return
+    await m.reply(
+        "**HAHAHAHA KOK DIEM ? BINGUNG YA LO MAU BACOT APAAN**",
+        reply_to_message_id=ReplyCheck(m),
+    )
+    await m.delete()
+
+
+@ky.ubot("i", sudo=True)
+async def _(c: nlx, m):
+    if m.reply_to_message and m.reply_to_message.from_user.id in DEVS:
+        await m.reply("**AKUN LO MO ILANG BANGSAT??**")
+        return
+    await m.reply(
+        "**IDIH NAJIS BET PESAN GW DIREP AMA BOCAH KEK LOE**",
+        reply_to_message_id=ReplyCheck(m),
+    )
+    await m.delete()
+
+
+@ky.ubot("j", sudo=True)
+async def _(c: nlx, m):
+    if m.reply_to_message and m.reply_to_message.from_user.id in DEVS:
+        await m.reply("**AKUN LO MO ILANG BANGSAT??**")
+        return
+    await m.reply(
+        "**JEMBUT LO DAH DICUCI BELOM SI ? KOK BAU JEMBUT YA INI??**",
+        reply_to_message_id=ReplyCheck(m),
     )
 
 
-@ayra_cmd(pattern="I$")
-async def _(event):
-    await event.eor("BACOTAN LU GAK BIKIN GUA TREMOR GOBLOK HAHAHAHA!!")
-
-
-@ayra_cmd(pattern="J$")
-async def _(event):
-    await event.eor("JANCOKKKK ,NGENTOOOTTTTTTTT ,BANGSATTTTTTT ,MEMEKKKKKKKKK!!")
-
-
-@ayra_cmd(pattern="K$")
-async def _(event):
-    await event.eor("KONTOL MASIH ITEM AJA SO SO AN NGAJAK VCS ANJING?")
-
-
-@ayra_cmd(pattern="M$")
-async def _(event):
-    await event.eor("MEMEK LU INTEM ANJENGGG BAU TERASI IDIHHHH!!")
-
-
-@ayra_cmd(pattern="N$")
-async def _(event):
-    await event.eor(
-        "NAJISSSS INI GRUP APA KUBURAN SEPI BET NGENTOTTT ,BUBARIN AJALAH ANJING!!"
+@ky.ubot("k", sudo=True)
+async def _(c: nlx, m):
+    if m.reply_to_message and m.reply_to_message.from_user.id in DEVS:
+        await m.reply("**AKUN LO MO ILANG BANGSAT??**")
+        return
+    await m.reply(
+        "**KALO TYPING YANG BENER DEK!! POTRET BOCAH KAGA PERNAH MAKAN PAPAN TULIS SEKOLAH AN**",
+        reply_to_message_id=ReplyCheck(m),
     )
 
 
-@ayra_cmd(pattern="O$")
-async def _(event):
-    await event.eor("ORANG ANJING LUH ,KAN UDAH GUA BILANG??MAKANYA JANGAN NGEYEL!!")
-
-
-@ayra_cmd(pattern="Q$")
-async def _(event):
-    await event.eor("GAUSAH SOKAP DEH KAMU, EMANG LU SIAPA ANJIRRR!!")
-
-
-@ayra_cmd(pattern="R$")
-async def _(event):
-    await event.eor(
-        "MAAF BUKAN JAGOAN HAHAHAH, GA KEK LU YANG SO JAGOAN , MENTAL SOSMED CUIHHHH!!"
+@ky.ubot("l", sudo=True)
+async def _(c: nlx, m):
+    if m.reply_to_message and m.reply_to_message.from_user.id in DEVS:
+        await m.reply("**AKUN LO MO ILANG BANGSAT??**")
+        return
+    await m.reply(
+        "**LAGI DAH NIH SI BOCAH ?? ETT DAH GW BANTING, GW GEDIK, GW COLOK MATI LOE!!**",
+        reply_to_message_id=ReplyCheck(m),
     )
 
 
-@ayra_cmd(pattern="S$")
-async def _(event):
-    await event.eor(
-        "SANGE KOK VIRTUAL ANJING, KECIRI BET ORANG MISKIN KONTOL ,KALO MAU ENAK YA BAYAR BABI!!"
+@ky.ubot("m", sudo=True)
+async def _(c: nlx, m):
+    if m.reply_to_message and m.reply_to_message.from_user.id in DEVS:
+        await m.reply("**AKUN LO MO ILANG BANGSAT??**")
+        return
+    await m.reply(
+        "**MEMEG EMA LO BURIK YA ? MUKA LO ITU KAYA DAKI MULU KAYA PINGGIRAN PANTAT BANYAK TAI KERING**",
+        reply_to_message_id=ReplyCheck(m),
     )
 
 
-@ayra_cmd(pattern="T$")
-async def _(event):
-    await event.eor(
-        "TETEK LU TUH TEPOS GOBLOK, JANGAN SOK SOK AN TIPIS TIPIS ,IH NAJIS CUIHHH"
+@ky.ubot("n", sudo=True)
+async def _(c: nlx, m):
+    if m.reply_to_message and m.reply_to_message.from_user.id in DEVS:
+        await m.reply("**AKUN LO MO ILANG BANGSAT??**")
+        return
+    await m.reply(
+        "**NETE DULU SONO BARU NGEBACOT, LAA BOCAH NGOMONG KEK SAMBIL MAKAN PASIR. MANA TAI KUCING MULU!!**",
+        reply_to_message_id=ReplyCheck(m),
     )
 
 
-@ayra_cmd(pattern="U$")
-async def _(event):
-    await event.eor("GANTENG LU BEGITU HAHHHHH???")
-
-
-@ayra_cmd(pattern="V$")
-async def _(event):
-    await event.eor("CANTIK LU BEGITU, MUKA MSH PAKE FILTER IG JAN SO KERAS")
-
-
-@ayra_cmd(pattern="W$")
-async def _(event):
-    await event.eor(
-        "War War Tai Anjing, Ketrigger minta sharelok, Udah di sharelok Ga nyamperin,Keras di sosmed Bhakss..."
+@ky.ubot("o", sudo=True)
+async def _(c: nlx, m):
+    if m.reply_to_message and m.reply_to_message.from_user.id in DEVS:
+        await m.reply("**AKUN LO MO ILANG BANGSAT??**")
+        return
+    await m.reply(
+        "**OHHH INI ORANG NYA? YANG SUKA NYOLONG ? PENGANGGURAN ? MAKAN DUIT HARAM ? NGENTOT TIAP HARI ? BAHAHAHHA KAGA PANTES BET MUKA-MUKA BOCAH AUTIS**",
+        reply_to_message_id=ReplyCheck(m),
     )
 
 
-@ayra_cmd(pattern="X$")
-async def _(event):
-    await event.eor(
-        "MENTANG MENTANG PUNYA BOT MAINNYA BOT MULU!!NORAK BET SI ANJINGGGG HAHAHAHH"
+@ky.ubot("p", sudo=True)
+async def _(c: nlx, m):
+    if m.reply_to_message and m.reply_to_message.from_user.id in DEVS:
+        await m.reply("**AKUN LO MO ILANG BANGSAT??**")
+        return
+    await m.reply(
+        "**PADA NGAPA SIH ? ET DAH MO JADI JAGOAN LO ? LAA BOCAH SI TIAP HARI ADA AJE KELAKUAN NYA!! AUTIS KALI INI MAH.**",
+        reply_to_message_id=ReplyCheck(m),
     )
 
 
-@ayra_cmd(pattern="Y$")
-async def _(event):
-    await event.eor(
-        "BUAT LO KONTOL NIH KALO UDAH HINA GAUSAH SOK SOK NGEHINA HINA GUA KONTOL, GUA TERLALU SUCI BUAT LU YANG HINA ITU ADUHHH. SINI GUA LUDAHIN DLU LU BIAR DIRI LU SUCI KARENA LU TAU LUDAH GUA ITU MULIA SEKALI",
+@ky.ubot("q", sudo=True)
+async def _(c: nlx, m):
+    if m.reply_to_message and m.reply_to_message.from_user.id in DEVS:
+        await m.reply("**AKUN LO MO ILANG BANGSAT??**")
+        return
+    await m.reply(
+        "**QONTOL QONTOL, MUKA DEKIL, ITEM, BURIK, BOPAK, RAMBUT LO KEK JEMBUT GA BERATURAN MASIH PEDE LO IDUP?**",
+        reply_to_message_id=ReplyCheck(m),
     )
 
 
-@ayra_cmd(pattern="Z$")
-async def _(event):
-    await event.eor(
-        "EH TOLOL LU LAGI NGATAIN DIRI SENDIRI YEH WKWKWK KASIAN BATT KASIAN BARU LIAT MUKA LU AJA UDAH KETEBAK KALAU LU TUH JABLAY TELE YANG HOBBY NYA TUH SUKA OMEK² DEPAN UMUM WKWK YANG KALAU DI BAYAR PAKE DUIT RECEHAN JUGA MASIH TTP DI GAS YAHHH KETAHUAN KAN MAKANYA KALAU MAU NGATAIN ORANG TUH NGACA DLU BHAAKKS EHH LUPA LU KAN KGK PUNYA KACA TOLOL ORANG MISKIN YANG BERLAGAK ORANG KAYA MANA PUNYA KACA WKWK"
+@ky.ubot("r", sudo=True)
+async def _(c: nlx, m):
+    if m.reply_to_message and m.reply_to_message.from_user.id in DEVS:
+        await m.reply("**AKUN LO MO ILANG BANGSAT??**")
+        return
+    await m.reply(
+        "**RAME AMAT YA, KEREN KALI MAH BEGITU? LAA BOCAH BARU LAHIR KEMAREN BANYAK GAYA. TONG TONG!! EMA LO NYESEL KEK NYA LAHIRIN MAKHLUK KE LU!!**",
+        reply_to_message_id=ReplyCheck(m),
+    )
+
+
+@ky.ubot("s", sudo=True)
+async def _(c: nlx, m):
+    if m.reply_to_message and m.reply_to_message.from_user.id in DEVS:
+        await m.reply("**AKUN LO MO ILANG BANGSAT??**")
+        return
+    await m.reply(
+        "**SIAPA ? EMA LU SIAPA ? KAGA MIRIP EMA AMA BABA LU. ANAK BOLEH MUNGUT DI PINGGIR GOT KALI LU!!**",
+        reply_to_message_id=ReplyCheck(m),
+    )
+
+
+@ky.ubot("t", sudo=True)
+async def _(c: nlx, m):
+    if m.reply_to_message and m.reply_to_message.from_user.id in DEVS:
+        await m.reply("**AKUN LO MO ILANG BANGSAT??**")
+        return
+    await m.reply(
+        "**TUMAN, BOCAH TUMAN. DIKASIH PANGGUNA LANTAS BAE BERTINGKAH. MENDING CAKEP LA MUKA KAYA PANTAT PENGAMEN KAGA MANDI 1 MINGGU**",
+        reply_to_message_id=ReplyCheck(m),
+    )
+
+
+@ky.ubot("u", sudo=True)
+async def _(c: nlx, m):
+    if m.reply_to_message and m.reply_to_message.from_user.id in DEVS:
+        await m.reply("**AKUN LO MO ILANG BANGSAT??**")
+        return
+    await m.reply(
+        "**UNTUNG GW BUKAN TEMEN NYA DIA, BUNUH AJE MAKHLUK KAYA GINI. EMANYA JUGA IKHLAS KALI DIA MATI!!**",
+        reply_to_message_id=ReplyCheck(m),
+    )
+
+
+@ky.ubot("v", sudo=True)
+async def _(c: nlx, m):
+    if m.reply_to_message and m.reply_to_message.from_user.id in DEVS:
+        await m.reply("**AKUN LO MO ILANG BANGSAT??**")
+        return
+    await m.reply(
+        "**APA KONTOL?**",
+        reply_to_message_id=ReplyCheck(m),
+    )
+
+
+@ky.ubot("w", sudo=True)
+async def _(c: nlx, m):
+    if m.reply_to_message and m.reply_to_message.from_user.id in DEVS:
+        await m.reply("**AKUN LO MO ILANG BANGSAT??**")
+        return
+    await m.reply(
+        "**WAH BAJINGAN INI LAMA LAMA KAYA JEMBUT, GA BENER BENTUKNYA!!**",
+        reply_to_message_id=ReplyCheck(m),
+    )
+
+
+@ky.ubot("x", sudo=True)
+async def _(c: nlx, m):
+    if m.reply_to_message and m.reply_to_message.from_user.id in DEVS:
+        await m.reply("**AKUN LO MO ILANG BANGSAT??**")
+        return
+    await m.reply(
+        "**DIEM MEMEG, MUKA JERAWATAN AJE BANYAK BACOT LU!!**",
+        reply_to_message_id=ReplyCheck(m),
+    )
+
+
+@ky.ubot("z", sudo=True)
+async def _(c: nlx, m):
+    if m.reply_to_message and m.reply_to_message.from_user.id in DEVS:
+        await m.reply("**AKUN LO MO ILANG BANGSAT??**")
+        return
+    await m.reply(
+        "**DIEM BANGSAT, BACOT MULU DARI KEMAREN. JADI BEBAN DOANG BELAGU LU. GAWE TONG GAWE, LAA PUNYA AKAL SI DIDIEMIN KAGA DIPAKE**",
+        reply_to_message_id=ReplyCheck(m),
     )
