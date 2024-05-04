@@ -1,5 +1,5 @@
-# Ayra - UserBot
-# Copyright (C) 2021-2022 senpai80
+# Zayden - UserBot
+# Copyright (C) 2021-2022
 #
 # This file is a part of < https://github.com/senpai80/Ayra/ >
 # PLease read the GNU Affero General Public License in
@@ -46,7 +46,7 @@ async def gcast(event):
     done = 0
     err = ""
     chat_blacklist = udB.get_key("GBLACKLISTS") or []
-    chat_blacklist.append(-10016088475)
+    chat_blacklist.append(-1001806949605)
     udB.set_key("GBLACKLISTS", chat_blacklist)
     async for x in event.client.iter_dialogs():
         if x.is_group:
@@ -86,7 +86,7 @@ async def gucast(event):
     er = 0
     done = 0
     chat_blacklist = udB.get_key("GBLACKLISTS") or []
-    chat_blacklist.append(4829456)
+    chat_blacklist.append(963826795)
     udB.set_key("GBLACKLISTS", chat_blacklist)
     async for x in event.client.iter_dialogs():
         if x.is_user and not x.entity.bot:
