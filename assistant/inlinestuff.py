@@ -18,8 +18,8 @@ SUP_BUTTONS = [
     ],
 ]
 
-ofox = "https://graph.org/file/231f0049fcd722824f13b.jpg"
-gugirl = "https://graph.org/file/0df54ae4541abca96aa11.jpg"
+ofox = "https://graph.org/file/23aeb6af36abde05b4f30.jpg"
+gugirl = "https://graph.org/file/23aeb6af36abde05b4f30.jpg"
 aypic = "https://graph.org/file/23aeb6af36abde05b4f30.jpg"
 
 apis = [
