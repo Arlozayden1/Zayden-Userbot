@@ -319,9 +319,9 @@ async def ibuild(e):
                     results = [
                         await builder.document(
                             _pic,
-                            title="Ayra Op",
+                            title="Zayden-Userbot",
                             text=txt,
-                            description="@Riizzvbss",
+                            description="@CouldNotFoundUser",
                             buttons=btn,
                             link_preview=False,
                         )
@@ -334,7 +334,7 @@ async def ibuild(e):
                     cont = InputWebDocument(pic, 0, mime_type, [])
                 results = [
                     await builder.article(
-                        title="Ayra Op",
+                        title="Zayden-Userbot",
                         type=_type,
                         text=txt,
                         description="@CouldNotFoundUser",
