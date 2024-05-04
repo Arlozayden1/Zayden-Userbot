@@ -637,7 +637,7 @@ async def apr_in(event):
         except BaseException:
             return await event.delete()
         await event.edit(
-            f"#APPROVED\n\n<b>{inline_mention(user, html=True)}</b> [<code>{user.id}</code>] <code>Disetujui untuk mengirim Pesan !</code>",
+            f"#APPROVED\n\n<b>{inline_mention(user, html=True)}</b> [<code>{user.id}</code>] <code>Oke, sekarang mau ngomong apa !</code>",
             buttons=[
                 [
                     Button.inline("Tolak", data=f"disapprove_{uid}"),
@@ -675,7 +675,7 @@ async def disapr_in(event):
         except BaseException:
             return await event.delete()
         await event.edit(
-            f"#DISAPPROVED\n\n<b>{inline_mention(user, html=True)}</b> [<code>{user.id}</code>] <code>Ditolak untuk mengirim pesan !</code>",
+            f"#DISAPPROVED\n\n<b>{inline_mention(user, html=True)}</b> [<code>{user.id}</code>] <code>Reject !</code>",
             buttons=[
                 [
                     Button.inline("Setujui", data=f"approve_{uid}"),
@@ -684,7 +684,7 @@ async def disapr_in(event):
             ],
             parse_mode="html",
         )
-        await event.answer("Ditolak untuk mengirim pesan.", alert=True)
+        await event.answer("reject.", alert=True)
     else:
         await event.edit(
             "`User was never approved!`",
@@ -796,7 +796,7 @@ async def in_pm_ans(event):
                 await event.builder.document(
                     res,
                     title="Inline PmPermit",
-                    description="[↻ꝛɪᴢ](https://t.me/riizzvbss)",
+                    description="[↻zу∂η](https://t.me/ScriptCorrupted)",
                     text=msg_,
                     buttons=buttons,
                     link_preview=False,
@@ -813,7 +813,7 @@ async def in_pm_ans(event):
                 title="Inline PMPermit.",
                 type=_type,
                 text=msg_,
-                description="[↻ꝛɪᴢ](https://t.me/riizzvbss)",
+                description="[↻zу∂η](https://t.me/ScriptCorrupted)",
                 include_media=include_media,
                 buttons=buttons,
                 thumb=cont,
