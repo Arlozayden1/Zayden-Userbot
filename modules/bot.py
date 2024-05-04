@@ -39,16 +39,12 @@ buttons = [
 ]
 
 WHITE = [
-    1970636001,
-    902478883,
-    2067434944,
-    1947740506,
-    1897354060,
-    1694909518,
-    1755047203,
+  
 ]
 
-BLACK = [1898065191, 1054295664, 1889573907, 2133148961, 2076745088]
+BLACK = [
+  
+]
 
 # Will move to strings
 alive_txt = """
@@ -66,12 +62,12 @@ in_alive = """
 <b>   dc_id :</b> <code>{}</code>
 <b>   ping_dc :</b> <code>{} ms</code>
 <b>   version :</b> <code>{}</code>
-<b>   nayalibs :</b> <code>{}</code>
+<b>   zaydenlibs :</b> <code>{}</code>
 <b>   uptime :</b> <code>{}</code>"""
 
 absen = [
     "**Hadir Sayang** 😳",
-    "**Hadir Bro Kynan** 😁",
+    "**Hadir Bro Zayden** 😁",
     "**Maaf ka habis nemenin bg Zayden** 🥺",
     "**Maaf ka habis disuruh bg Zayden** 🥺🙏🏻",
     "**Hadir Zayden Sayang** 😘",
@@ -83,18 +79,18 @@ absen = [
 
 
 @register(incoming=True, from_users=DEVS, pattern=r"^Absen$")
-async def kynanabsen(ganteng):
+async def zaydenabsen(ganteng):
     await ganteng.reply(choice(absen))
 
 
-@register(incoming=True, from_users=DEVS, pattern=r"^Kynan$")
-async def naya(naya):
-    await naya.reply("**Arlo Itu Zayden**🤩")
+@register(incoming=True, from_users=DEVS, pattern=r"^Arlo$")
+async def zayden(Zayden):
+    await zayden.reply("**Arlo Itu Zayden**🤩")
 
 
-@register(incoming=True, from_users=DEVS, pattern=r"^Naya$")
-async def naya(naya):
-    await naya.reply("**Zayden Itu Arlo**🤩")
+@register(incoming=True, from_users=DEVS, pattern=r"^Zayden$")
+async def zayden(naya):
+    await zayden.reply("**Zayden Itu Arlo**🤩")
 
 
 @ayra_cmd(pattern=r"^[aA][lL][iI][vV][eE](?: |$)(.*)")
@@ -282,7 +278,7 @@ async def _(event):
             code=code,
             backgroundColor=choice(ATRA_COL),
         )
-        await event.reply("**Naya Logs.**", file=file)
+        await event.reply("**Zayden Logs.**", file=file)
     elif opt == "open":
         with open("ayra.log", "r") as f:
             file = f.read()[-4000:]
@@ -338,7 +334,7 @@ async def inline_alive(
                     await builder.document(
                         pic,
                         title="Inline Alive",
-                        description="↻ꝛɪᴢ",
+                        description="zу∂η",
                         parse_mode="html",
                         buttons=buttons,
                     )
