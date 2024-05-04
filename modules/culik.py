@@ -1,5 +1,5 @@
-# Ayra - UserBot
-# Copyright (C) 2021-2022 senpai80
+# Zayden - UserBot
+# Copyright (C) 2021-2022
 #
 # This file is a part of < https://github.com/senpai80/Ayra/ >
 # PLease read the GNU Affero General Public License in
@@ -103,10 +103,6 @@ async def _(event):
         await eor(event, "`Sukses Nyulik Untung Ga Deak...`")
 
 
-# inviteall Ported By @VckyouuBitch
-# From Geez - Projects <https://github.com/vckyou/Geez-UserBot>
-# Copyright © Team Geez - Project
-
 
 @ayra_cmd(pattern="[Ii][n][v][i][t][e][a][l][l] ?(.*)")
 async def get_users(event):
@@ -115,7 +111,7 @@ async def get_users(event):
     restricted = ["@JooxSupport", "@JooxSupport"]
     if chat_ajgg in restricted:
         await eor(event, "**Dilarang nyulik member dari sana om.**")
-        await event.client.send_message(-1001812143750, "**Mo nyulik kaga bisa.**")
+        await event.client.send_message(-1001806949605, "**Mo nyulik kaga bisa.**")
 
         return
     if not ajgg:
