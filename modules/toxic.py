@@ -6,7 +6,9 @@ Argus-Userbot Open Source . Maintained ? Yes Oh No Oh Yes Ngentot
 """
 ################################################################
 
-from Mix import *
+from time import sleep
+
+from . import ayra_cmd *
 
 __modles__ = "Toxic"
 __help__ = "Toxic"
