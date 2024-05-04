@@ -1,4 +1,4 @@
-# Ayra - UserBot
+# Zayden - UserBot
 # Copyright (C) 2021-2022 senpai80
 #
 # This file is a part of < https://github.com/senpai80/Ayra/ >
